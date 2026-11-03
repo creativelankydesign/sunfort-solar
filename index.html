@@ -58,12 +58,12 @@
   .dark .btn-line{border-color:var(--dark-line);color:var(--dark-ink)}
   .dark .btn-line:hover{border-color:var(--accent-bright);color:var(--accent-bright)}
   /* hero pill buttons (white pill + circular arrow badge, and outline pill) */
-  .btn-whitepill{display:inline-flex;align-items:center;gap:22px;background:#fff;color:var(--ink);font-family:var(--display);font-weight:500;font-size:1.06rem;letter-spacing:-.01em;padding:8px 8px 8px 34px;border-radius:999px;border:1px solid #fff;cursor:pointer;text-decoration:none;transition:background .25s,transform .08s}
+  .btn-whitepill{display:inline-flex;align-items:center;gap:16px;background:#fff;color:var(--ink);font-family:var(--display);font-weight:500;font-size:.96rem;letter-spacing:-.01em;padding:6px 6px 6px 26px;border-radius:999px;border:1px solid #fff;cursor:pointer;text-decoration:none;transition:background .25s,transform .08s}
   .btn-whitepill:hover{background:#eef1ea}
   .btn-whitepill:active{transform:translateY(1px)}
-  .btn-whitepill .arrowbadge{width:48px;height:48px;border-radius:50%;background:var(--accent-bright);color:#14250A;display:grid;place-items:center;flex:none;transition:transform .25s}
+  .btn-whitepill .arrowbadge{width:40px;height:40px;border-radius:50%;background:var(--accent-bright);color:#14250A;display:grid;place-items:center;flex:none;transition:transform .25s}
   .btn-whitepill:hover .arrowbadge{transform:translateX(3px)}
-  .btn-ghostw{display:inline-flex;align-items:center;gap:10px;background:transparent;color:#fff;font-family:var(--display);font-weight:500;font-size:1.06rem;letter-spacing:-.01em;padding:20px 34px;border-radius:999px;border:1px solid rgba(255,255,255,.42);cursor:pointer;text-decoration:none;transition:border-color .25s,background .25s}
+  .btn-ghostw{display:inline-flex;align-items:center;gap:10px;background:transparent;color:#fff;font-family:var(--display);font-weight:500;font-size:.96rem;letter-spacing:-.01em;padding:14px 28px;border-radius:999px;border:1px solid rgba(255,255,255,.42);cursor:pointer;text-decoration:none;transition:border-color .25s,background .25s}
   .btn-ghostw:hover{border-color:#fff;background:rgba(255,255,255,.06)}
 
   /* scroll progress */
@@ -114,9 +114,10 @@
     .hero .wrap{padding-block:132px 94px}
     .hero h1{font-size:clamp(2.3rem,8.6vw,3.4rem);max-width:none}
     .hero .lead{margin-top:24px;font-size:1.08rem;max-width:none}
-    .hero-cta{margin-top:36px;gap:14px;flex-direction:column;align-items:stretch}
-    .btn-whitepill{width:100%;justify-content:space-between;padding-left:30px}
-    .btn-ghostw{width:100%;justify-content:center}
+    .hero-cta{margin-top:32px;gap:12px;flex-direction:column;align-items:flex-start}
+    .btn-whitepill{width:auto;justify-content:flex-start;gap:14px;padding:5px 5px 5px 24px;font-size:.92rem}
+    .btn-whitepill .arrowbadge{width:36px;height:36px}
+    .btn-ghostw{width:auto;padding:12px 24px;font-size:.92rem}
     .scrollcue{display:none}
   }
 
